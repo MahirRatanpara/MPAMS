@@ -22,6 +22,8 @@
   },
   "scripts": {
     "start": "lerna run start --parallel",
+    "start:server": "lerna run start --scope=server",
+    "start:client": "lerna run start --scope=client",
     "build": "lerna run build",
     "format": "prettier --write '**/*.{js,jsx}'"
   },
