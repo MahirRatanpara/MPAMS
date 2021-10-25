@@ -25,7 +25,7 @@
     "start:server": "lerna run start --scope=server",
     "start:client": "lerna run start --scope=client",
     "build": "lerna run build",
-    "format": "eslint --fix '*.{js,jsx}'"
+    "format": "eslint './**' --fix"
   },
   "workspaces": [
     "packages/*"
